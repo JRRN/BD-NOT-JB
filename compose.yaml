@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bdj-dev:
+    build: .
+    container_name: bdj-dev
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    restart: unless-stopped
