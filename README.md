@@ -30,12 +30,10 @@ Use john-tornblom's **[bdj-sdk](https://github.com/john-tornblom/bdj-sdk/)** for
 
 ---
 
+### Mac Users
 
-** Mac Users:
 
 ```
-docker-compose up -d --build
-
 docker exec -it bdj-dev bash -c "
 cd /workspace/BD-NOT-JB-main/payloads/helloworld &&
 mkdir -p build &&
